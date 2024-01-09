@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-for-scapi",
+  "version": "1.0.0",
+  "description": "Discordbot endpoint for rsg-socialclub-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "updateCommands": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdjdpsjsjdlsk/discordbot-for-scapi.git"
+  },
+  "author": "malte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdjdpsjsjdlsk/discordbot-for-scapi/issues"
+  },
+  "homepage": "https://github.com/jdjdpsjsjdlsk/discordbot-for-scapi#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
+  }
+}
